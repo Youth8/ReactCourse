@@ -1,0 +1,7 @@
+
+node*/
+dist/**
+public/**
+!dist/*.html
+!public/*.html
+package-lock.json

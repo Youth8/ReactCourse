@@ -1,0 +1,22 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "roomType": "Apartment",
+      "roomClass": "Basic"
+    },
+    {
+      "id": 2,
+      "name": "Room 2",
+      "roomType": "Apartment",
+      "roomClass": "Basic"
+    },
+    {
+      "id": 3,
+      "name": "Room 3",
+      "roomType": "Apartment",
+      "roomClass": "Basic"
+    }
+  ]
+}
