@@ -1,0 +1,63 @@
+{
+  "name": "react-code-academy-class-3",
+  "version": "1.0.0",
+  "description": "Code sample for class 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "npm run build && webpack-dev-server --open",
+    "start-server": "node src/server/index.js",
+    "build": "babel src --out-dir dist --copy-files && webpack --config webpack.config.js",
+    "pack": "webpack --config webpack.config.js --colors --profile --display-modules --sort-modules-by size"
+  },
+  "keywords": [
+    "React",
+    "Code Academy"
+  ],
+  "author": "Michael Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "compression-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.1.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "express": "^4.17.1",
+    "identity-obj-proxy": "^3.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "epc-ui-core-react": "^1.0.0-alpha.41",
+    "epc-ui-layout": "0.0.7",
+    "epc-ui-validation": "0.0.9",
+    "epc-ui-validation-ferris": "0.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "uuid": "^3.3.2"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  }
+}
