@@ -1,0 +1,751 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests for Table render empty table correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    body={Array []}
+    head={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          aria-hidden="true"
+          class="fds-data-table-header"
+        />,
+        <div
+          class="fds-data-table-scroll-wrapper"
+        >
+          <table
+            class="fds-data-table"
+          >
+            <thead>
+              <Row
+                head={true}
+                row={Array []}
+              />
+            </thead>
+            <tbody />
+          </table>
+        </div>,
+      ],
+      "class": "fds-data-table-wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-hidden": "true",
+          "children": undefined,
+          "class": "fds-data-table-header",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <table
+            class="fds-data-table"
+          >
+            <thead>
+              <Row
+                head={true}
+                row={Array []}
+              />
+            </thead>
+            <tbody />
+          </table>,
+          "class": "fds-data-table-scroll-wrapper",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead>
+                <Row
+                  head={true}
+                  row={Array []}
+                />
+              </thead>,
+              <tbody />,
+            ],
+            "class": "fds-data-table",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Row
+                  head={true}
+                  row={Array []}
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "head": true,
+                  "row": Array [],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [],
+              },
+              "ref": null,
+              "rendered": Array [],
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            aria-hidden="true"
+            class="fds-data-table-header"
+          />,
+          <div
+            class="fds-data-table-scroll-wrapper"
+          >
+            <table
+              class="fds-data-table"
+            >
+              <thead>
+                <Row
+                  head={true}
+                  row={Array []}
+                />
+              </thead>
+              <tbody />
+            </table>
+          </div>,
+        ],
+        "class": "fds-data-table-wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-hidden": "true",
+            "children": undefined,
+            "class": "fds-data-table-header",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <table
+              class="fds-data-table"
+            >
+              <thead>
+                <Row
+                  head={true}
+                  row={Array []}
+                />
+              </thead>
+              <tbody />
+            </table>,
+            "class": "fds-data-table-scroll-wrapper",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <thead>
+                  <Row
+                    head={true}
+                    row={Array []}
+                  />
+                </thead>,
+                <tbody />,
+              ],
+              "class": "fds-data-table",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Row
+                    head={true}
+                    row={Array []}
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "head": true,
+                    "row": Array [],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "thead",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [],
+                },
+                "ref": null,
+                "rendered": Array [],
+                "type": "tbody",
+              },
+            ],
+            "type": "table",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;
+
+exports[`Tests for Table render table correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    body={
+      Array [
+        Object {
+          "first_name": "Michael",
+          "last_name": "Liu",
+        },
+      ]
+    }
+    head={
+      Array [
+        "first_name",
+        "last_name",
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          aria-hidden="true"
+          class="fds-data-table-header"
+        />,
+        <div
+          class="fds-data-table-scroll-wrapper"
+        >
+          <table
+            class="fds-data-table"
+          >
+            <thead>
+              <Row
+                head={true}
+                row={
+                  Array [
+                    "first_name",
+                    "last_name",
+                  ]
+                }
+              />
+            </thead>
+            <tbody>
+              <Row
+                row={
+                  Object {
+                    "first_name": "Michael",
+                    "last_name": "Liu",
+                  }
+                }
+              />
+            </tbody>
+          </table>
+        </div>,
+      ],
+      "class": "fds-data-table-wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-hidden": "true",
+          "children": undefined,
+          "class": "fds-data-table-header",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <table
+            class="fds-data-table"
+          >
+            <thead>
+              <Row
+                head={true}
+                row={
+                  Array [
+                    "first_name",
+                    "last_name",
+                  ]
+                }
+              />
+            </thead>
+            <tbody>
+              <Row
+                row={
+                  Object {
+                    "first_name": "Michael",
+                    "last_name": "Liu",
+                  }
+                }
+              />
+            </tbody>
+          </table>,
+          "class": "fds-data-table-scroll-wrapper",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead>
+                <Row
+                  head={true}
+                  row={
+                    Array [
+                      "first_name",
+                      "last_name",
+                    ]
+                  }
+                />
+              </thead>,
+              <tbody>
+                <Row
+                  row={
+                    Object {
+                      "first_name": "Michael",
+                      "last_name": "Liu",
+                    }
+                  }
+                />
+              </tbody>,
+            ],
+            "class": "fds-data-table",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Row
+                  head={true}
+                  row={
+                    Array [
+                      "first_name",
+                      "last_name",
+                    ]
+                  }
+                />,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "head": true,
+                  "row": Array [
+                    "first_name",
+                    "last_name",
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Row
+                    row={
+                      Object {
+                        "first_name": "Michael",
+                        "last_name": "Liu",
+                      }
+                    }
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "function",
+                  "props": Object {
+                    "row": Object {
+                      "first_name": "Michael",
+                      "last_name": "Liu",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            aria-hidden="true"
+            class="fds-data-table-header"
+          />,
+          <div
+            class="fds-data-table-scroll-wrapper"
+          >
+            <table
+              class="fds-data-table"
+            >
+              <thead>
+                <Row
+                  head={true}
+                  row={
+                    Array [
+                      "first_name",
+                      "last_name",
+                    ]
+                  }
+                />
+              </thead>
+              <tbody>
+                <Row
+                  row={
+                    Object {
+                      "first_name": "Michael",
+                      "last_name": "Liu",
+                    }
+                  }
+                />
+              </tbody>
+            </table>
+          </div>,
+        ],
+        "class": "fds-data-table-wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-hidden": "true",
+            "children": undefined,
+            "class": "fds-data-table-header",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <table
+              class="fds-data-table"
+            >
+              <thead>
+                <Row
+                  head={true}
+                  row={
+                    Array [
+                      "first_name",
+                      "last_name",
+                    ]
+                  }
+                />
+              </thead>
+              <tbody>
+                <Row
+                  row={
+                    Object {
+                      "first_name": "Michael",
+                      "last_name": "Liu",
+                    }
+                  }
+                />
+              </tbody>
+            </table>,
+            "class": "fds-data-table-scroll-wrapper",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <thead>
+                  <Row
+                    head={true}
+                    row={
+                      Array [
+                        "first_name",
+                        "last_name",
+                      ]
+                    }
+                  />
+                </thead>,
+                <tbody>
+                  <Row
+                    row={
+                      Object {
+                        "first_name": "Michael",
+                        "last_name": "Liu",
+                      }
+                    }
+                  />
+                </tbody>,
+              ],
+              "class": "fds-data-table",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Row
+                    head={true}
+                    row={
+                      Array [
+                        "first_name",
+                        "last_name",
+                      ]
+                    }
+                  />,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "head": true,
+                    "row": Array [
+                      "first_name",
+                      "last_name",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "thead",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <Row
+                      row={
+                        Object {
+                          "first_name": "Michael",
+                          "last_name": "Liu",
+                        }
+                      }
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "function",
+                    "props": Object {
+                      "row": Object {
+                        "first_name": "Michael",
+                        "last_name": "Liu",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "tbody",
+              },
+            ],
+            "type": "table",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+}
+`;

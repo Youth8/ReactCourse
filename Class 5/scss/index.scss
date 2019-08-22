@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  a {
+    color: white !important;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  a:hover{
+      color:#83d0f2 !important;
+  }
+
+  .current-page {
+    color: #83d0f2 !important;
+  }
+}
+
+.footer {
+  background-color: #ccc;
+}

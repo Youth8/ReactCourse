@@ -1,0 +1,686 @@
+{
+  "roomTypes": [
+    {
+      "id": "",
+      "text": "Select a type"
+    },
+    {
+      "id": 6097,
+      "text": "Villa",
+      "localizedName": "Villa",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6094,
+      "text": "Tree House",
+      "localizedName": "Tree House",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6089,
+      "text": "Single Room",
+      "localizedName": "Single Room",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6083,
+      "text": "Loft",
+      "localizedName": "Loft",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6080,
+      "text": "Double Room Single Use",
+      "localizedName": "Double Room Single Use",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6079,
+      "text": "Double Room",
+      "localizedName": "Double Room",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6077,
+      "text": "Cottage",
+      "localizedName": "Cottage",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6076,
+      "text": "Condo",
+      "localizedName": "Condo",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6075,
+      "text": "Chalet",
+      "localizedName": "Chalet",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6073,
+      "text": "Bungalow",
+      "localizedName": "Bungalow",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6072,
+      "text": "Apartment",
+      "localizedName": "Apartment",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 1073742547,
+      "text": "Townhome",
+      "localizedName": "Townhome",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6096,
+      "text": "Twin Room",
+      "localizedName": "Twin Room",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6095,
+      "text": "Triple Room",
+      "localizedName": "Triple Room",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6093,
+      "text": "Tent",
+      "localizedName": "Tent",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6092,
+      "text": "Suite",
+      "localizedName": "Suite",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6091,
+      "text": "Studio Suite",
+      "localizedName": "Studio Suite",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6090,
+      "text": "Studio",
+      "localizedName": "Studio",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6088,
+      "text": "Shared Dormitory",
+      "localizedName": "Shared Dormitory",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6087,
+      "text": "Room",
+      "localizedName": "Room",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": true
+    },
+    {
+      "id": 6086,
+      "text": "Quadruple Room",
+      "localizedName": "Quadruple Room",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6085,
+      "text": "Penthouse",
+      "localizedName": "Penthouse",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6084,
+      "text": "Mobile Home",
+      "localizedName": "Mobile Home",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6082,
+      "text": "House",
+      "localizedName": "House",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6081,
+      "text": "Duplex",
+      "localizedName": "Duplex",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6078,
+      "text": "Double or Twin Room",
+      "localizedName": "Double or Twin Room",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 6074,
+      "text": "Cabin",
+      "localizedName": "Cabin",
+
+      "sectionId": 153,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    }
+  ],
+  "roomClasses": [
+    {
+      "id": "",
+      "text": "Select a class"
+    },
+    {
+      "id": 5291,
+      "text": "Traditional",
+      "localizedName": "Traditional",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5290,
+      "text": "Superior",
+      "localizedName": "Superior",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5289,
+      "text": "Standard",
+      "localizedName": "Standard",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5288,
+      "text": "Signature",
+      "localizedName": "Signature",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5287,
+      "text": "Senior",
+      "localizedName": "Senior",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5286,
+      "text": "Royal",
+      "localizedName": "Royal",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5285,
+      "text": "Romantic",
+      "localizedName": "Romantic",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5284,
+      "text": "Presidential",
+      "localizedName": "Presidential",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5283,
+      "text": "Premium",
+      "localizedName": "Premium",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5282,
+      "text": "Premier",
+      "localizedName": "Premier",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5281,
+      "text": "Panoramic",
+      "localizedName": "Panoramic",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5280,
+      "text": "Luxury",
+      "localizedName": "Luxury",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5279,
+      "text": "Junior",
+      "localizedName": "Junior",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5278,
+      "text": "Honeymoon",
+      "localizedName": "Honeymoon",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5277,
+      "text": "Grand",
+      "localizedName": "Grand",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5276,
+      "text": "Gallery",
+      "localizedName": "Gallery",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5275,
+      "text": "Family",
+      "localizedName": "Family",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5274,
+      "text": "Executive",
+      "localizedName": "Executive",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5273,
+      "text": "Exclusive",
+      "localizedName": "Exclusive",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5272,
+      "text": "Elite",
+      "localizedName": "Elite",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5271,
+      "text": "Economy",
+      "localizedName": "Economy",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5270,
+      "text": "Design",
+      "localizedName": "Design",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5269,
+      "text": "Deluxe",
+      "localizedName": "Deluxe",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5268,
+      "text": "Comfort",
+      "localizedName": "Comfort",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5267,
+      "text": "Club",
+      "localizedName": "Club",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5266,
+      "text": "Classic",
+      "localizedName": "Classic",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5265,
+      "text": "City",
+      "localizedName": "City",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5264,
+      "text": "Business",
+      "localizedName": "Business",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    },
+    {
+      "id": 5263,
+      "text": "Basic",
+      "localizedName": "Basic",
+
+      "sectionId": 151,
+      "displayable": false,
+      "editable": false,
+      "updateUserName": null,
+      "updateDate": null,
+      "selected": false
+    }
+  ]
+}
